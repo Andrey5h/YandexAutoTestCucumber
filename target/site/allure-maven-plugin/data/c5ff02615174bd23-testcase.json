@@ -1,0 +1,251 @@
+{
+  "uid" : "c5ff02615174bd23",
+  "name" : "Поиск наушников в ЯндексМаркете",
+  "title" : "Поиск наушников в ЯндексМаркете",
+  "time" : {
+    "start" : 1517509619214,
+    "stop" : 1517509638142,
+    "duration" : 18928
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 13
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "176acc0ac48ee6ae",
+    "name" : "ЯндексМаркет",
+    "title" : "ЯндексМаркет"
+  },
+  "steps" : [ {
+    "name" : "Когда Осуществлен переход на страницу Яндекса",
+    "title" : "Когда Осуществлен переход на страницу Яндекса",
+    "time" : {
+      "start" : 1517509622250,
+      "stop" : 1517509624974,
+      "duration" : 2724
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Когда Выбран пунк меню \"Маркет\"",
+    "title" : "Когда Выбран пунк меню \"Маркет\"",
+    "time" : {
+      "start" : 1517509624974,
+      "stop" : 1517509628287,
+      "duration" : 3313
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelectMainMenu[Маркет]",
+      "title" : "Выбран пунк меню Маркет",
+      "time" : {
+        "start" : 1517509624976,
+        "stop" : 1517509628286,
+        "duration" : 3310
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Выбран пунк меню - Электроника",
+    "title" : "Когда Выбран пунк меню - Электроника",
+    "time" : {
+      "start" : 1517509628287,
+      "stop" : 1517509631359,
+      "duration" : 3072
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepClickElectronika",
+      "title" : "Выбрано меню Электроника",
+      "time" : {
+        "start" : 1517509628287,
+        "stop" : 1517509631359,
+        "duration" : 3072
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Выбран пунк меню - Наушники",
+    "title" : "Когда Выбран пунк меню - Наушники",
+    "time" : {
+      "start" : 1517509631359,
+      "stop" : 1517509634279,
+      "duration" : 2920
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Когда заполняются поля:",
+    "title" : "Когда заполняются поля:",
+    "time" : {
+      "start" : 1517509634279,
+      "stop" : 1517509634409,
+      "duration" : 130
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepFillField[Сумма, 5000]",
+      "title" : "Поле Сумма заполняется значенем 5000",
+      "time" : {
+        "start" : 1517509634279,
+        "stop" : 1517509634409,
+        "duration" : 130
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Выбран чек бокс Beats",
+    "title" : "Когда Выбран чек бокс Beats",
+    "time" : {
+      "start" : 1517509634410,
+      "stop" : 1517509634524,
+      "duration" : 114
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Когда Выполнено нажатие на кнопку Применить",
+    "title" : "Когда Выполнено нажатие на кнопку Применить",
+    "time" : {
+      "start" : 1517509634524,
+      "stop" : 1517509634617,
+      "duration" : 93
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepButtonPrimenit",
+      "title" : "Выполнено нажатие на кнопку Применить",
+      "time" : {
+        "start" : 1517509634524,
+        "stop" : 1517509634617,
+        "duration" : 93
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Выполнена проверка Элиментов на форме наушников = 12",
+    "title" : "Когда Выполнена проверка Элиментов на форме наушников = 12",
+    "time" : {
+      "start" : 1517509634617,
+      "stop" : 1517509634637,
+      "duration" : 20
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Когда Запомнили значение 1ого элимента и делаем поиск по нему поиск",
+    "title" : "Когда Запомнили значение 1ого элимента и делаем поиск по нему поиск",
+    "time" : {
+      "start" : 1517509634637,
+      "stop" : 1517509637387,
+      "duration" : 2750
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "6412@DESKTOP-DLBNCAD.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Поиск наушников в ЯндексМаркете"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DLBNCAD"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "feature",
+    "value" : "ЯндексМаркет"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "suite-name",
+    "value" : "ЯндексМаркет"
+  } ],
+  "parameters" : [ ]
+}

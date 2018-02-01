@@ -1,0 +1,25 @@
+{
+  "testCases" : [ {
+    "uid" : "a887bcd86d42a94f",
+    "name" : "Поиск телевизоров LG и Samsung в ЯндексМаркете",
+    "title" : "Поиск телевизоров LG и Samsung в ЯндексМаркете",
+    "time" : {
+      "start" : 1517509599437,
+      "stop" : 1517509619214,
+      "duration" : 19777
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "c5ff02615174bd23",
+    "name" : "Поиск наушников в ЯндексМаркете",
+    "title" : "Поиск наушников в ЯндексМаркете",
+    "time" : {
+      "start" : 1517509619214,
+      "stop" : 1517509638142,
+      "duration" : 18928
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

@@ -1,0 +1,9 @@
+pages\BasePage.class
+util\TestProperties.class
+steps\MarketSteps.class
+util\AllureReporter.class
+pages\MarketPage.class
+steps\BaseSteps.class
+steps\MainSteps.class
+steps\ScenarioSteps.class
+pages\MainPage.class

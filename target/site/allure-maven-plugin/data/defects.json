@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "c272f035bb15d7e",
+      "failure" : {
+        "message" : "AssertionError: expected:<12> but was:<48>",
+        "stackTrace" : "java.lang.AssertionError: expected:<12> but was:<48>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat steps.MarketSteps.stepCheckCountOfEliments(MarketSteps.java:52)\n\tat steps.ScenarioSteps.stepCheckCountOfEliments(ScenarioSteps.java:82)\n\tat ✽.Когда Выполнена проверка Элиментов на форме телевизоров = 12(Маркет.feature:16)\n"
+      },
+      "testCases" : [ {
+        "uid" : "a887bcd86d42a94f",
+        "name" : "Поиск телевизоров LG и Samsung в ЯндексМаркете",
+        "title" : "Поиск телевизоров LG и Samsung в ЯндексМаркете",
+        "time" : {
+          "start" : 1517509599437,
+          "stop" : 1517509619214,
+          "duration" : 19777
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}

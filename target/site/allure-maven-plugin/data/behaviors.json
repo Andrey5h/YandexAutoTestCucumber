@@ -1,0 +1,60 @@
+{
+  "features" : [ {
+    "title" : "ЯндексМаркет",
+    "statistic" : {
+      "total" : 2,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "407df292c5de45bf",
+      "title" : "Поиск телевизоров LG и Samsung в ЯндексМаркете",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "a887bcd86d42a94f",
+        "name" : "Поиск телевизоров LG и Samsung в ЯндексМаркете",
+        "title" : "Поиск телевизоров LG и Samsung в ЯндексМаркете",
+        "time" : {
+          "start" : 1517509599437,
+          "stop" : 1517509619214,
+          "duration" : 19777
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "a2967c3e6063c939",
+      "title" : "Поиск наушников в ЯндексМаркете",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "c5ff02615174bd23",
+        "name" : "Поиск наушников в ЯндексМаркете",
+        "title" : "Поиск наушников в ЯндексМаркете",
+        "time" : {
+          "start" : 1517509619214,
+          "stop" : 1517509638142,
+          "duration" : 18928
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

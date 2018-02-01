@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 39.502 s <<< FAILURE! - in CucumberRunner
+Когда Выполнена проверка Элиментов на форме телевизоров = 12(Сценарий: Поиск телевизоров LG и Samsung в ЯндексМаркете)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: expected:<12> but was:<48>
+
+Сценарий: Поиск телевизоров LG и Samsung в ЯндексМаркете  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: expected:<12> but was:<48>
+
