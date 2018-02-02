@@ -4,38 +4,33 @@
     "total" : {
       "statistic" : {
         "total" : 2,
-        "passed" : 1,
+        "passed" : 2,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 1,
+        "failed" : 0,
         "broken" : 0
       },
       "time" : {
-        "start" : 1517509599437,
-        "stop" : 1517509638142,
-        "duration" : 38705
+        "start" : 1517598931282,
+        "stop" : 1517598973107,
+        "duration" : 41825
       }
     },
     "defects" : {
-      "totalCount" : 1,
-      "items" : [ {
-        "count" : 1,
-        "uid" : "c272f035bb15d7e",
-        "message" : "AssertionError: expected:<12> but was:<48>",
-        "status" : "FAILED"
-      } ]
+      "totalCount" : 0,
+      "items" : [ ]
     },
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "176acc0ac48ee6ae",
+        "uid" : "203508115591ec3b",
         "title" : "ЯндексМаркет",
         "statistic" : {
           "total" : 2,
-          "passed" : 1,
+          "passed" : 2,
           "pending" : 0,
           "canceled" : 0,
-          "failed" : 1,
+          "failed" : 0,
           "broken" : 0
         }
       } ]
@@ -46,10 +41,10 @@
         "title" : "ЯндексМаркет",
         "statistic" : {
           "total" : 2,
-          "passed" : 1,
+          "passed" : 2,
           "pending" : 0,
           "canceled" : 0,
-          "failed" : 1,
+          "failed" : 0,
           "broken" : 0
         }
       } ]

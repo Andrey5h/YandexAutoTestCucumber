@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="39.502" tests="21" errors="0" skipped="1" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="42.628" tests="21" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.2.6"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -70,18 +70,10 @@
   <testcase name="Когда Выбран чек бокс Samsung" classname="Сценарий: Поиск телевизоров LG и Samsung в ЯндексМаркете" time="0"/>
   <testcase name="Когда Выбран чек бокс LG" classname="Сценарий: Поиск телевизоров LG и Samsung в ЯндексМаркете" time="0"/>
   <testcase name="Когда Выполнено нажатие на кнопку Применить" classname="Сценарий: Поиск телевизоров LG и Samsung в ЯндексМаркете" time="0"/>
-  <testcase name="Когда Выполнена проверка Элиментов на форме телевизоров = 12" classname="Сценарий: Поиск телевизоров LG и Samsung в ЯндексМаркете" time="0.008">
-    <failure message="expected:&lt;12&gt; but was:&lt;48&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<12> but was:<48>
-]]></failure>
-  </testcase>
-  <testcase name="Сценарий: Поиск телевизоров LG и Samsung в ЯндексМаркете" classname="Сценарий: Поиск телевизоров LG и Samsung в ЯндексМаркете" time="0.008">
-    <failure message="expected:&lt;12&gt; but was:&lt;48&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<12> but was:<48>
-]]></failure>
-  </testcase>
-  <testcase name="Когда Запомнили значение 1ого элимента И делаем поиск по нему" classname="Сценарий: Поиск телевизоров LG и Samsung в ЯндексМаркете" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Когда Осуществлен переход на страницу Яндекса" classname="Сценарий: Поиск наушников в ЯндексМаркете" time="0"/>
+  <testcase name="Когда Выполнена проверка Элиментов на форме телевизоров = 12" classname="Сценарий: Поиск телевизоров LG и Samsung в ЯндексМаркете" time="0"/>
+  <testcase name="Когда Запомнили значение 1ого элимента Телевизора и делаем поиск по нему" classname="Сценарий: Поиск телевизоров LG и Samsung в ЯндексМаркете" time="0"/>
+  <testcase name="Сценарий: Поиск телевизоров LG и Samsung в ЯндексМаркете" classname="Сценарий: Поиск телевизоров LG и Samsung в ЯндексМаркете" time="1.562"/>
+  <testcase name="Когда Осуществлен переход на страницу Яндекса" classname="Сценарий: Поиск наушников в ЯндексМаркете" time="0.001"/>
   <testcase name="Когда Выбран пунк меню &quot;Маркет&quot;" classname="Сценарий: Поиск наушников в ЯндексМаркете" time="0"/>
   <testcase name="Когда Выбран пунк меню - Электроника" classname="Сценарий: Поиск наушников в ЯндексМаркете" time="0"/>
   <testcase name="Когда Выбран пунк меню - Наушники" classname="Сценарий: Поиск наушников в ЯндексМаркете" time="0"/>
@@ -89,6 +81,6 @@
   <testcase name="Когда Выбран чек бокс Beats" classname="Сценарий: Поиск наушников в ЯндексМаркете" time="0"/>
   <testcase name="Когда Выполнено нажатие на кнопку Применить" classname="Сценарий: Поиск наушников в ЯндексМаркете" time="0"/>
   <testcase name="Когда Выполнена проверка Элиментов на форме наушников = 12" classname="Сценарий: Поиск наушников в ЯндексМаркете" time="0"/>
-  <testcase name="Когда Запомнили значение 1ого элимента и делаем поиск по нему поиск" classname="Сценарий: Поиск наушников в ЯндексМаркете" time="0"/>
-  <testcase name="Сценарий: Поиск наушников в ЯндексМаркете" classname="Сценарий: Поиск наушников в ЯндексМаркете" time="0.755"/>
+  <testcase name="Когда Запомнили значение 1ого элимента Наушников и делаем поиск по нему" classname="Сценарий: Поиск наушников в ЯндексМаркете" time="0"/>
+  <testcase name="Сценарий: Поиск наушников в ЯндексМаркете" classname="Сценарий: Поиск наушников в ЯндексМаркете" time="0.784"/>
 </testsuite>

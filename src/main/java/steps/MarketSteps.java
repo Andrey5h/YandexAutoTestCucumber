@@ -7,6 +7,10 @@ package steps;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.MarketPage;
 import ru.yandex.qatools.allure.annotations.Step;
 
@@ -49,6 +53,9 @@ public class MarketSteps {
 
     @Step("Выполнена проверка Элиментов на форме = 12")
     public void stepCheckCountOfEliments() {
+        Wait<WebDriver> wait = new WebDriverWait(BaseSteps.getDriver(), 5, 1000);
+        wait.until( ExpectedConditions.visibilityOf(
+                BaseSteps.getDriver().findElement( By.xpath("(//div[@class='n-snippet-card2__title'])"))));
         assertEquals( 12,  BaseSteps.getDriver().findElements( By.xpath( "(//div[@class='n-snippet-card2__title'])" ) ).size() );
     }
 
@@ -85,6 +92,9 @@ public class MarketSteps {
 
     @Step("Выполнена проверка Элиментов на форме = 12")
     public void stepCheckCountOfHeadphonesEliments() {
+        Wait<WebDriver> wait = new WebDriverWait(BaseSteps.getDriver(), 5, 1000);
+        wait.until( ExpectedConditions.visibilityOf(
+                BaseSteps.getDriver().findElement( By.xpath("(//DIV[@class='n-snippet-cell2__title'])"))));
         assertEquals( 12,  BaseSteps.getDriver().findElements( By.xpath( "(//DIV[@class='n-snippet-cell2__title'])" ) ).size() );
     }
 

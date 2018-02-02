@@ -1,15 +1,15 @@
 {
-  "uid" : "c5ff02615174bd23",
+  "uid" : "57853a00dfcb0164",
   "name" : "Поиск наушников в ЯндексМаркете",
   "title" : "Поиск наушников в ЯндексМаркете",
   "time" : {
-    "start" : 1517509619214,
-    "stop" : 1517509638142,
-    "duration" : 18928
+    "start" : 1517598952777,
+    "stop" : 1517598973107,
+    "duration" : 20330
   },
   "summary" : {
     "attachments" : 0,
-    "steps" : 13
+    "steps" : 14
   },
   "failure" : null,
   "description" : {
@@ -19,7 +19,7 @@
   "severity" : "NORMAL",
   "status" : "PASSED",
   "suite" : {
-    "uid" : "176acc0ac48ee6ae",
+    "uid" : "203508115591ec3b",
     "name" : "ЯндексМаркет",
     "title" : "ЯндексМаркет"
   },
@@ -27,9 +27,9 @@
     "name" : "Когда Осуществлен переход на страницу Яндекса",
     "title" : "Когда Осуществлен переход на страницу Яндекса",
     "time" : {
-      "start" : 1517509622250,
-      "stop" : 1517509624974,
-      "duration" : 2724
+      "start" : 1517598955823,
+      "stop" : 1517598958214,
+      "duration" : 2391
     },
     "summary" : {
       "attachments" : 0,
@@ -42,9 +42,9 @@
     "name" : "Когда Выбран пунк меню \"Маркет\"",
     "title" : "Когда Выбран пунк меню \"Маркет\"",
     "time" : {
-      "start" : 1517509624974,
-      "stop" : 1517509628287,
-      "duration" : 3313
+      "start" : 1517598958214,
+      "stop" : 1517598961769,
+      "duration" : 3555
     },
     "summary" : {
       "attachments" : 0,
@@ -56,9 +56,9 @@
       "name" : "stepSelectMainMenu[Маркет]",
       "title" : "Выбран пунк меню Маркет",
       "time" : {
-        "start" : 1517509624976,
-        "stop" : 1517509628286,
-        "duration" : 3310
+        "start" : 1517598958215,
+        "stop" : 1517598961769,
+        "duration" : 3554
       },
       "summary" : {
         "attachments" : 0,
@@ -72,9 +72,9 @@
     "name" : "Когда Выбран пунк меню - Электроника",
     "title" : "Когда Выбран пунк меню - Электроника",
     "time" : {
-      "start" : 1517509628287,
-      "stop" : 1517509631359,
-      "duration" : 3072
+      "start" : 1517598961769,
+      "stop" : 1517598963590,
+      "duration" : 1821
     },
     "summary" : {
       "attachments" : 0,
@@ -86,9 +86,9 @@
       "name" : "stepClickElectronika",
       "title" : "Выбрано меню Электроника",
       "time" : {
-        "start" : 1517509628287,
-        "stop" : 1517509631359,
-        "duration" : 3072
+        "start" : 1517598961769,
+        "stop" : 1517598963589,
+        "duration" : 1820
       },
       "summary" : {
         "attachments" : 0,
@@ -102,9 +102,9 @@
     "name" : "Когда Выбран пунк меню - Наушники",
     "title" : "Когда Выбран пунк меню - Наушники",
     "time" : {
-      "start" : 1517509631359,
-      "stop" : 1517509634279,
-      "duration" : 2920
+      "start" : 1517598963590,
+      "stop" : 1517598967603,
+      "duration" : 4013
     },
     "summary" : {
       "attachments" : 0,
@@ -117,9 +117,9 @@
     "name" : "Когда заполняются поля:",
     "title" : "Когда заполняются поля:",
     "time" : {
-      "start" : 1517509634279,
-      "stop" : 1517509634409,
-      "duration" : 130
+      "start" : 1517598967603,
+      "stop" : 1517598967738,
+      "duration" : 135
     },
     "summary" : {
       "attachments" : 0,
@@ -131,9 +131,9 @@
       "name" : "stepFillField[Сумма, 5000]",
       "title" : "Поле Сумма заполняется значенем 5000",
       "time" : {
-        "start" : 1517509634279,
-        "stop" : 1517509634409,
-        "duration" : 130
+        "start" : 1517598967604,
+        "stop" : 1517598967738,
+        "duration" : 134
       },
       "summary" : {
         "attachments" : 0,
@@ -147,9 +147,9 @@
     "name" : "Когда Выбран чек бокс Beats",
     "title" : "Когда Выбран чек бокс Beats",
     "time" : {
-      "start" : 1517509634410,
-      "stop" : 1517509634524,
-      "duration" : 114
+      "start" : 1517598967738,
+      "stop" : 1517598967833,
+      "duration" : 95
     },
     "summary" : {
       "attachments" : 0,
@@ -162,9 +162,9 @@
     "name" : "Когда Выполнено нажатие на кнопку Применить",
     "title" : "Когда Выполнено нажатие на кнопку Применить",
     "time" : {
-      "start" : 1517509634524,
-      "stop" : 1517509634617,
-      "duration" : 93
+      "start" : 1517598967833,
+      "stop" : 1517598969901,
+      "duration" : 2068
     },
     "summary" : {
       "attachments" : 0,
@@ -176,9 +176,9 @@
       "name" : "stepButtonPrimenit",
       "title" : "Выполнено нажатие на кнопку Применить",
       "time" : {
-        "start" : 1517509634524,
-        "stop" : 1517509634617,
-        "duration" : 93
+        "start" : 1517598969833,
+        "stop" : 1517598969901,
+        "duration" : 68
       },
       "summary" : {
         "attachments" : 0,
@@ -192,24 +192,39 @@
     "name" : "Когда Выполнена проверка Элиментов на форме наушников = 12",
     "title" : "Когда Выполнена проверка Элиментов на форме наушников = 12",
     "time" : {
-      "start" : 1517509634617,
-      "stop" : 1517509634637,
-      "duration" : 20
+      "start" : 1517598969901,
+      "stop" : 1517598969939,
+      "duration" : 38
     },
     "summary" : {
       "attachments" : 0,
-      "steps" : 0
+      "steps" : 1
     },
     "status" : "PASSED",
     "attachments" : [ ],
-    "steps" : [ ]
+    "steps" : [ {
+      "name" : "stepCheckCountOfHeadphonesEliments",
+      "title" : "Выполнена проверка Элиментов на форме = 12",
+      "time" : {
+        "start" : 1517598969902,
+        "stop" : 1517598969939,
+        "duration" : 37
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
   }, {
-    "name" : "Когда Запомнили значение 1ого элимента и делаем поиск по нему поиск",
-    "title" : "Когда Запомнили значение 1ого элимента и делаем поиск по нему поиск",
+    "name" : "Когда Запомнили значение 1ого элимента Наушников и делаем поиск по нему",
+    "title" : "Когда Запомнили значение 1ого элимента Наушников и делаем поиск по нему",
     "time" : {
-      "start" : 1517509634637,
-      "stop" : 1517509637387,
-      "duration" : 2750
+      "start" : 1517598969939,
+      "stop" : 1517598972323,
+      "duration" : 2384
     },
     "summary" : {
       "attachments" : 0,
@@ -223,14 +238,14 @@
   "issues" : [ ],
   "testIds" : [ ],
   "labels" : [ {
-    "name" : "thread",
-    "value" : "6412@DESKTOP-DLBNCAD.main(1)"
-  }, {
     "name" : "language",
     "value" : "JAVA"
   }, {
     "name" : "story",
     "value" : "Поиск наушников в ЯндексМаркете"
+  }, {
+    "name" : "thread",
+    "value" : "9228@DESKTOP-DLBNCAD.main(1)"
   }, {
     "name" : "host",
     "value" : "DESKTOP-DLBNCAD"

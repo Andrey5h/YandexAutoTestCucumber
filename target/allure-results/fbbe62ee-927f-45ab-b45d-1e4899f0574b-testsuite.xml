@@ -1,115 +1,128 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1517509599422" stop="1517509638142" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="1517598931267" stop="1517598973109" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <name>ЯндексМаркет</name>
     <description type="text"></description>
     <test-cases>
-        <test-case start="1517509599437" stop="1517509619214" status="failed">
+        <test-case start="1517598931282" stop="1517598952777" status="passed">
             <name>Поиск телевизоров LG и Samsung в ЯндексМаркете</name>
             <title>Поиск телевизоров LG и Samsung в ЯндексМаркете</title>
             <description type="text"></description>
-            <failure>
-                <message>AssertionError: expected:&lt;12&gt; but was:&lt;48&gt;</message>
-                <stack-trace>java.lang.AssertionError: expected:&lt;12&gt; but was:&lt;48&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:645)
-	at org.junit.Assert.assertEquals(Assert.java:631)
-	at steps.MarketSteps.stepCheckCountOfEliments(MarketSteps.java:52)
-	at steps.ScenarioSteps.stepCheckCountOfEliments(ScenarioSteps.java:82)
-	at ✽.Когда Выполнена проверка Элиментов на форме телевизоров = 12(Маркет.feature:16)
-</stack-trace>
-            </failure>
             <steps>
-                <step start="1517509603440" stop="1517509606000" status="passed">
+                <step start="1517598935387" stop="1517598938015" status="passed">
                     <name>Когда Осуществлен переход на страницу Яндекса</name>
                     <title>Когда Осуществлен переход на страницу Яндекса</title>
+                    <attachments/>
+                    <steps/>
                 </step>
-                <step start="1517509606001" stop="1517509608886" status="passed">
+                <step start="1517598938016" stop="1517598941120" status="passed">
                     <name>Когда Выбран пунк меню "Маркет"</name>
                     <title>Когда Выбран пунк меню "Маркет"</title>
+                    <attachments/>
                     <steps>
-                        <step start="1517509606044" stop="1517509608886" status="passed">
+                        <step start="1517598938067" stop="1517598941120" status="passed">
                             <name>stepSelectMainMenu[Маркет]</name>
                             <title>Выбран пунк меню Маркет</title>
+                            <attachments/>
+                            <steps/>
                         </step>
                     </steps>
                 </step>
-                <step start="1517509608886" stop="1517509614016" status="passed">
+                <step start="1517598941120" stop="1517598942576" status="passed">
                     <name>Когда Выбран пунк меню - Электроника</name>
                     <title>Когда Выбран пунк меню - Электроника</title>
+                    <attachments/>
                     <steps>
-                        <step start="1517509608887" stop="1517509614015" status="passed">
+                        <step start="1517598941121" stop="1517598942575" status="passed">
                             <name>stepClickElectronika</name>
                             <title>Выбрано меню Электроника</title>
+                            <attachments/>
+                            <steps/>
                         </step>
                     </steps>
                 </step>
-                <step start="1517509614016" stop="1517509617189" status="passed">
+                <step start="1517598942576" stop="1517598946090" status="passed">
                     <name>Когда Выбран пунк меню - Телевизоры</name>
                     <title>Когда Выбран пунк меню - Телевизоры</title>
+                    <attachments/>
                     <steps>
-                        <step start="1517509614016" stop="1517509617189" status="passed">
+                        <step start="1517598942577" stop="1517598946090" status="passed">
                             <name>stepClickMenuTV</name>
                             <title>Выбрано меню Телевизоры</title>
+                            <attachments/>
+                            <steps/>
                         </step>
                     </steps>
                 </step>
-                <step start="1517509617189" stop="1517509617392" status="passed">
+                <step start="1517598946090" stop="1517598946269" status="passed">
                     <name>Когда заполняются поля:</name>
                     <title>Когда заполняются поля:</title>
+                    <attachments/>
                     <steps>
-                        <step start="1517509617191" stop="1517509617392" status="passed">
+                        <step start="1517598946093" stop="1517598946269" status="passed">
                             <name>stepFillField[Сумма, 20000]</name>
                             <title>Поле Сумма заполняется значенем 20000</title>
+                            <attachments/>
+                            <steps/>
                         </step>
                     </steps>
                 </step>
-                <step start="1517509617392" stop="1517509617530" status="passed">
+                <step start="1517598946270" stop="1517598946382" status="passed">
                     <name>Когда Выбран чек бокс Samsung</name>
                     <title>Когда Выбран чек бокс Samsung</title>
+                    <attachments/>
                     <steps>
-                        <step start="1517509617393" stop="1517509617530" status="passed">
+                        <step start="1517598946270" stop="1517598946381" status="passed">
                             <name>stepClickSamsung</name>
                             <title>Выбран чек бокс Samsung</title>
+                            <attachments/>
+                            <steps/>
                         </step>
                     </steps>
                 </step>
-                <step start="1517509617531" stop="1517509617694" status="passed">
+                <step start="1517598946382" stop="1517598946483" status="passed">
                     <name>Когда Выбран чек бокс LG</name>
                     <title>Когда Выбран чек бокс LG</title>
+                    <attachments/>
                     <steps>
-                        <step start="1517509617531" stop="1517509617694" status="passed">
+                        <step start="1517598946382" stop="1517598946483" status="passed">
                             <name>stepClickLG</name>
                             <title>Выбран чек бокс LG</title>
+                            <attachments/>
+                            <steps/>
                         </step>
                     </steps>
                 </step>
-                <step start="1517509617694" stop="1517509617893" status="passed">
+                <step start="1517598946484" stop="1517598948591" status="passed">
                     <name>Когда Выполнено нажатие на кнопку Применить</name>
                     <title>Когда Выполнено нажатие на кнопку Применить</title>
+                    <attachments/>
                     <steps>
-                        <step start="1517509617695" stop="1517509617893" status="passed">
+                        <step start="1517598948486" stop="1517598948591" status="passed">
                             <name>stepButtonPrimenit</name>
                             <title>Выполнено нажатие на кнопку Применить</title>
+                            <attachments/>
+                            <steps/>
                         </step>
                     </steps>
                 </step>
-                <step start="1517509617893" stop="1517509618354" status="failed">
+                <step start="1517598948592" stop="1517598948647" status="passed">
                     <name>Когда Выполнена проверка Элиментов на форме телевизоров = 12</name>
                     <title>Когда Выполнена проверка Элиментов на форме телевизоров = 12</title>
-                    <attachments>
-                        <attachment title="Скриншот в момент ошибки" source="bbec3fd5-4ad1-41f1-9e21-e8f8d05f2570-attachment.png" type="image/png"/>
-                    </attachments>
+                    <attachments/>
                     <steps>
-                        <step start="1517509617894" stop="1517509617936" status="failed">
+                        <step start="1517598948592" stop="1517598948647" status="passed">
                             <name>stepCheckCountOfEliments</name>
                             <title>Выполнена проверка Элиментов на форме = 12</title>
+                            <attachments/>
+                            <steps/>
                         </step>
                     </steps>
                 </step>
-                <step start="1517509618355" stop="1517509618356" status="canceled">
-                    <name>Когда Запомнили значение 1ого элимента И делаем поиск по нему</name>
-                    <title>Когда Запомнили значение 1ого элимента И делаем поиск по нему</title>
+                <step start="1517598948648" stop="1517598951215" status="passed">
+                    <name>Когда Запомнили значение 1ого элимента Телевизора и делаем поиск по нему</name>
+                    <title>Когда Запомнили значение 1ого элимента Телевизора и делаем поиск по нему</title>
+                    <attachments/>
+                    <steps/>
                 </step>
             </steps>
             <attachments/>
@@ -117,27 +130,27 @@
                 <label name="story" value="Поиск телевизоров LG и Samsung в ЯндексМаркете"/>
                 <label name="feature" value="ЯндексМаркет"/>
                 <label name="host" value="DESKTOP-DLBNCAD"/>
-                <label name="thread" value="6412@DESKTOP-DLBNCAD.main(1)"/>
+                <label name="thread" value="9228@DESKTOP-DLBNCAD.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>
-        <test-case start="1517509619214" stop="1517509638142" status="passed">
+        <test-case start="1517598952777" stop="1517598973107" status="passed">
             <name>Поиск наушников в ЯндексМаркете</name>
             <title>Поиск наушников в ЯндексМаркете</title>
             <description type="text"></description>
             <steps>
-                <step start="1517509622250" stop="1517509624974" status="passed">
+                <step start="1517598955823" stop="1517598958214" status="passed">
                     <name>Когда Осуществлен переход на страницу Яндекса</name>
                     <title>Когда Осуществлен переход на страницу Яндекса</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1517509624974" stop="1517509628287" status="passed">
+                <step start="1517598958214" stop="1517598961769" status="passed">
                     <name>Когда Выбран пунк меню "Маркет"</name>
                     <title>Когда Выбран пунк меню "Маркет"</title>
                     <attachments/>
                     <steps>
-                        <step start="1517509624976" stop="1517509628286" status="passed">
+                        <step start="1517598958215" stop="1517598961769" status="passed">
                             <name>stepSelectMainMenu[Маркет]</name>
                             <title>Выбран пунк меню Маркет</title>
                             <attachments/>
@@ -145,12 +158,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1517509628287" stop="1517509631359" status="passed">
+                <step start="1517598961769" stop="1517598963590" status="passed">
                     <name>Когда Выбран пунк меню - Электроника</name>
                     <title>Когда Выбран пунк меню - Электроника</title>
                     <attachments/>
                     <steps>
-                        <step start="1517509628287" stop="1517509631359" status="passed">
+                        <step start="1517598961769" stop="1517598963589" status="passed">
                             <name>stepClickElectronika</name>
                             <title>Выбрано меню Электроника</title>
                             <attachments/>
@@ -158,18 +171,18 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1517509631359" stop="1517509634279" status="passed">
+                <step start="1517598963590" stop="1517598967603" status="passed">
                     <name>Когда Выбран пунк меню - Наушники</name>
                     <title>Когда Выбран пунк меню - Наушники</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1517509634279" stop="1517509634409" status="passed">
+                <step start="1517598967603" stop="1517598967738" status="passed">
                     <name>Когда заполняются поля:</name>
                     <title>Когда заполняются поля:</title>
                     <attachments/>
                     <steps>
-                        <step start="1517509634279" stop="1517509634409" status="passed">
+                        <step start="1517598967604" stop="1517598967738" status="passed">
                             <name>stepFillField[Сумма, 5000]</name>
                             <title>Поле Сумма заполняется значенем 5000</title>
                             <attachments/>
@@ -177,18 +190,18 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1517509634410" stop="1517509634524" status="passed">
+                <step start="1517598967738" stop="1517598967833" status="passed">
                     <name>Когда Выбран чек бокс Beats</name>
                     <title>Когда Выбран чек бокс Beats</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1517509634524" stop="1517509634617" status="passed">
+                <step start="1517598967833" stop="1517598969901" status="passed">
                     <name>Когда Выполнено нажатие на кнопку Применить</name>
                     <title>Когда Выполнено нажатие на кнопку Применить</title>
                     <attachments/>
                     <steps>
-                        <step start="1517509634524" stop="1517509634617" status="passed">
+                        <step start="1517598969833" stop="1517598969901" status="passed">
                             <name>stepButtonPrimenit</name>
                             <title>Выполнено нажатие на кнопку Применить</title>
                             <attachments/>
@@ -196,15 +209,22 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1517509634617" stop="1517509634637" status="passed">
+                <step start="1517598969901" stop="1517598969939" status="passed">
                     <name>Когда Выполнена проверка Элиментов на форме наушников = 12</name>
                     <title>Когда Выполнена проверка Элиментов на форме наушников = 12</title>
                     <attachments/>
-                    <steps/>
+                    <steps>
+                        <step start="1517598969902" stop="1517598969939" status="passed">
+                            <name>stepCheckCountOfHeadphonesEliments</name>
+                            <title>Выполнена проверка Элиментов на форме = 12</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
                 </step>
-                <step start="1517509634637" stop="1517509637387" status="passed">
-                    <name>Когда Запомнили значение 1ого элимента и делаем поиск по нему поиск</name>
-                    <title>Когда Запомнили значение 1ого элимента и делаем поиск по нему поиск</title>
+                <step start="1517598969939" stop="1517598972323" status="passed">
+                    <name>Когда Запомнили значение 1ого элимента Наушников и делаем поиск по нему</name>
+                    <title>Когда Запомнили значение 1ого элимента Наушников и делаем поиск по нему</title>
                     <attachments/>
                     <steps/>
                 </step>
@@ -214,7 +234,7 @@
                 <label name="story" value="Поиск наушников в ЯндексМаркете"/>
                 <label name="feature" value="ЯндексМаркет"/>
                 <label name="host" value="DESKTOP-DLBNCAD"/>
-                <label name="thread" value="6412@DESKTOP-DLBNCAD.main(1)"/>
+                <label name="thread" value="9228@DESKTOP-DLBNCAD.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>

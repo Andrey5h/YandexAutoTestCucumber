@@ -3,37 +3,37 @@
     "title" : "ЯндексМаркет",
     "statistic" : {
       "total" : 2,
-      "passed" : 1,
+      "passed" : 2,
       "pending" : 0,
       "canceled" : 0,
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0
     },
     "stories" : [ {
-      "uid" : "407df292c5de45bf",
+      "uid" : "bb11bb8222336e10",
       "title" : "Поиск телевизоров LG и Samsung в ЯндексМаркете",
       "statistic" : {
         "total" : 1,
-        "passed" : 0,
+        "passed" : 1,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 1,
+        "failed" : 0,
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "a887bcd86d42a94f",
+        "uid" : "93c94f041584b6a8",
         "name" : "Поиск телевизоров LG и Samsung в ЯндексМаркете",
         "title" : "Поиск телевизоров LG и Samsung в ЯндексМаркете",
         "time" : {
-          "start" : 1517509599437,
-          "stop" : 1517509619214,
-          "duration" : 19777
+          "start" : 1517598931282,
+          "stop" : 1517598952777,
+          "duration" : 21495
         },
         "severity" : "NORMAL",
-        "status" : "FAILED"
+        "status" : "PASSED"
       } ]
     }, {
-      "uid" : "a2967c3e6063c939",
+      "uid" : "a0ff03b004e1459d",
       "title" : "Поиск наушников в ЯндексМаркете",
       "statistic" : {
         "total" : 1,
@@ -44,13 +44,13 @@
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "c5ff02615174bd23",
+        "uid" : "57853a00dfcb0164",
         "name" : "Поиск наушников в ЯндексМаркете",
         "title" : "Поиск наушников в ЯндексМаркете",
         "time" : {
-          "start" : 1517509619214,
-          "stop" : 1517509638142,
-          "duration" : 18928
+          "start" : 1517598952777,
+          "stop" : 1517598973107,
+          "duration" : 20330
         },
         "severity" : "NORMAL",
         "status" : "PASSED"

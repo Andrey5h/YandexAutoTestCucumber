@@ -74,6 +74,12 @@ public class ScenarioSteps {
 
     @When ("Выполнено нажатие на кнопку Применить")
     public void stepButtonPrimenit(){
+
+        try {
+            Thread.sleep( 2000 );
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         marketSteps.stepButtonPrimenit();
     }
 
@@ -83,10 +89,13 @@ public class ScenarioSteps {
     }
 
 
-    @When ("Запомнили значение 1ого элимента И делаем поиск по нему")
+    @When ("Запомнили значение 1ого элимента Телевизора и делаем поиск по нему")
     public void stepFoundFirstEliment (){
         String s = BaseSteps.getDriver().findElement( By.xpath( "(//div[@class='n-snippet-card2__title'])[1]" ) ).getText();
         BaseSteps.getDriver().findElement( By.xpath( "//INPUT[@id='header-search']" ) ).sendKeys( s);
+        Wait<WebDriver> wait = new WebDriverWait(BaseSteps.getDriver(), 5, 1000);
+        wait.until( ExpectedConditions.elementToBeClickable(
+                BaseSteps.getDriver().findElement(By.xpath("(//BUTTON[@role='button'])[1]"))));
         BaseSteps.getDriver().findElement( By.xpath( "(//BUTTON[@role='button'])[1]" ) ).click();
         Assert.assertTrue( BaseSteps.getDriver().findElement( By.xpath( "//H1[@class='title title_size_28 title_bold_yes']" ) ).getText().contains(s));
     }
@@ -103,13 +112,16 @@ public class ScenarioSteps {
 
     @When("Выполнена проверка Элиментов на форме наушников = 12")
     public void stepCheckCountOfHeadphonesEliments() {
-        assertEquals( 12,  BaseSteps.getDriver().findElements( By.xpath( "(//DIV[@class='n-snippet-cell2__title'])" ) ).size() );
+        marketSteps.stepCheckCountOfHeadphonesEliments();
     }
 
-    @When("Запомнили значение 1ого элимента и делаем поиск по нему поиск")
+    @When("Запомнили значение 1ого элимента Наушников и делаем поиск по нему")
     public void stepFoundFirstHeadphonesEliment() {
         String k =  BaseSteps.getDriver().findElement( By.xpath( "(//DIV[@class='n-snippet-cell2__title'])[1]" ) ).getText();
         BaseSteps.getDriver().findElement( By.xpath( "//INPUT[@id='header-search']" ) ).sendKeys( k );
+        Wait<WebDriver> wait = new WebDriverWait(BaseSteps.getDriver(), 5, 1000);
+        wait.until( ExpectedConditions.elementToBeClickable(
+                BaseSteps.getDriver().findElement(By.xpath("(//BUTTON[@role='button'])[1]"))));
         BaseSteps.getDriver().findElement( By.xpath( "(//BUTTON[@role='button'])[1]" ) ).click();
         Assert.assertTrue(  BaseSteps.getDriver().findElement( By.xpath( "//LI[@class='n-breadcrumbs__item n-breadcrumbs__item_type_text']" ) ).getText().contains( k ) );
     }
